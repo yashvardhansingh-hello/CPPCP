@@ -13,6 +13,8 @@ void clearBit(int* n, int pos){
     *n = (*n & (~(1<<pos)));
 }
 
+
+
 int main() {
     int n = 2;
     setBit(&n, 0);
